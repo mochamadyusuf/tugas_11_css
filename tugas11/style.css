@@ -1,0 +1,33 @@
+body {
+  background-color: #ddd;
+}
+
+header ul {
+  background-color: #000;
+  margin: 0;
+  padding: 10px;
+}
+
+header ul li {
+  display: inline;
+  margin-right: 20px;
+}
+header li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+main p {
+  -moz-column-count: 4;
+  column-count: 4;
+  -moz-column-rule: 2px solid #000;
+  column-rule: 2px solid #000;
+}
+
+.footer {
+  background-color: #000;
+  text-align: center;
+  color: #fff;
+  font-size: 0.7em;
+  padding: 0 0 5px;
+}
